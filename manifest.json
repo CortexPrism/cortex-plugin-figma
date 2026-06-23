@@ -1,6 +1,6 @@
 {
   "name": "cortex-plugin-figma",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Read Figma designs, extract tokens, generate code",
   "kind": "esm",
   "entryPoint": "mod.ts",
@@ -76,7 +76,7 @@
             "svelte",
             "html"
           ],
-          "default": "react"
+          "defaultValue": "react"
         },
         {
           "name": "styling",
@@ -88,7 +88,7 @@
             "tailwind",
             "styled_components"
           ],
-          "default": "tailwind"
+          "defaultValue": "tailwind"
         }
       ]
     },
@@ -119,7 +119,7 @@
   ],
   "dependencies": {},
   "peerDependencies": {
-    "cortex": ">=1.0.0"
+    "cortex": ">=0.51.0"
   },
   "aiDisclosure": {
     "tools": [
